@@ -16,6 +16,7 @@ class Post(models.Model):
     
     def __str__(self):
         return self.title
+#return f'Blog title:{self.title} author{self.author} created{self.created_date} publish{s}
 
 
 
